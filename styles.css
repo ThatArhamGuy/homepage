@@ -3,7 +3,7 @@
   src: url("/Nexa\ Light.otf") format("truetype");
 }
 @font-face {
-  font-family: "Nexa bold";
+  font-family: "Nexa-bold";
   src: url("/Nexa\ Bold.otf") format("truetype");
 }
 
@@ -44,8 +44,15 @@ li a:hover {
 }
 
 .Block {
+  padding: 10px;
   float: left;
   width: 50%;
   margin: 10px;
   font-size: larger;
+  border: 3px solid black;
+  border-radius: 5px;
+}
+
+h1 {
+  font-family: Nexa-bold;
 }
