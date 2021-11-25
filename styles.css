@@ -29,3 +29,10 @@ li a:hover {
   background-color: #111;
   border-radius: 9px;
 }
+
+.Block {
+  float: left;
+  width: 50%;
+  margin: 10px;
+  font-size: larger;
+}
