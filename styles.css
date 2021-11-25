@@ -9,21 +9,27 @@
 
 body {
   font-family: Nexa Light;
+  background-color: #00ced1;
 }
 
+.nav {
+  padding: 0px 10px 0px;
+}
 ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #333;
+  background-color: transparent;
   border-radius: 7px;
+  border: 1px solid black;
 }
 
 li p {
   float: left;
   display: inline-flex;
-  color: azure;
+  font-weight: bold;
+  color: black;
   text-align: center;
   padding-left: 10px;
 }
@@ -31,7 +37,7 @@ li p {
 li a {
   float: right;
   display: inline-flex;
-  color: white;
+  color: black;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
@@ -39,7 +45,8 @@ li a {
 }
 
 li a:hover {
-  background-color: #111;
+  background-color: transparent;
+  border: 2px solid black;
   border-radius: 9px;
 }
 
@@ -51,8 +58,25 @@ li a:hover {
   font-size: larger;
   border: 3px solid black;
   border-radius: 5px;
+  border: 1px solid rgb(51, 51, 51);
+  color: rgb(51, 51, 51);
+  box-shadow: rgb(51, 51, 51) 4px 4px 0px 0px;
 }
 
 h1 {
   font-family: Nexa-bold;
+}
+
+.block2 {
+  background-color: yellow;
+  padding: 10px;
+  float: left;
+  width: 50%;
+  margin: 10px;
+  font-size: larger;
+  border: 3px solid black;
+  border-radius: 5px;
+  border: 1px solid rgb(51, 51, 51);
+  color: rgb(51, 51, 51);
+  box-shadow: rgb(51, 51, 51) 4px 4px 0px 0px;
 }
