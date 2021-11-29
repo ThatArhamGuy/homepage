@@ -9,7 +9,7 @@
 
 body {
   font-family: Nexa Light;
-  background-color: #00ced1;
+  background-color: #2e4045;
 }
 
 .nav {
@@ -29,7 +29,7 @@ li p {
   float: left;
   display: inline-flex;
   font-weight: bold;
-  color: black;
+  color: azure;
   text-align: center;
   padding-left: 10px;
 }
@@ -37,7 +37,7 @@ li p {
 li a {
   float: right;
   display: inline-flex;
-  color: black;
+  color: azure;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
@@ -56,9 +56,9 @@ li a:hover {
 }
 
 .Block {
+  background-color: #83adb5;
   padding: 10px;
   float: left;
-  width: auto;
   margin: 10px;
   font-size: larger;
   border: 3px solid black;
@@ -73,10 +73,10 @@ h1 {
 }
 
 .block2 {
-  background-color: gold;
+  background-color: #c7bbc9;
   padding: 10px;
+  width: initial;
   float: right;
-  width: auto;
   margin: 10px;
   font-size: larger;
   border: 3px solid black;
@@ -84,4 +84,30 @@ h1 {
   border: 1px solid rgb(51, 51, 51);
   color: rgb(51, 51, 51);
   box-shadow: rgb(51, 51, 51) 4px 4px 0px 0px;
+}
+
+.articleblock {
+  background-color: #bfb5b2;
+  padding: 10px;
+  float: left;
+  margin: 10px;
+  font-size: larger;
+  border: 3px solid black;
+  border-radius: 5px;
+  border: 1px solid rgb(51, 51, 51);
+  color: rgb(51, 51, 51);
+  box-shadow: rgb(51, 51, 51) 4px 4px 0px 0px;
+}
+
+.post {
+  height: 250px;
+  width: 200px;
+  padding: 5px;
+  background-color: yellow;
+  border: 2px solid white;
+  border-radius: 20px;
+}
+
+:link {
+  font-style: normal;
 }
