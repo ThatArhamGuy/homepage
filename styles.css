@@ -50,14 +50,14 @@ li a:hover {
   border-radius: 9px;
 }
 
-.A1 {
-  height: fit-content;
-  padding-bottom: 10px;
+.A {
+  height: 280px;
+  width: auto;
 }
 .Block {
   padding: 10px;
   float: left;
-  width: 47%;
+  width: 46%;
   margin: 10px;
   font-size: larger;
   border: 3px solid black;
@@ -74,8 +74,8 @@ h1 {
 .block2 {
   background-color: gold;
   padding: 10px;
-  float: right;
-  width: 47%;
+  float: left;
+  width: 46%;
   margin: 10px;
   font-size: larger;
   border: 3px solid black;
@@ -86,15 +86,26 @@ h1 {
 }
 
 .header {
-  background-color: gold;
+  background-color: green;
   padding: 10px;
   float: center;
   width: 97%;
-  margin: 10px;
+  margin: 10px 10px 10px 10px;
   font-size: larger;
   border: 3px solid black;
   border-radius: 5px;
   border: 1px solid rgb(51, 51, 51);
   color: rgb(51, 51, 51);
   box-shadow: rgb(51, 51, 51) 4px 4px 0px 0px;
+  font-family: monospace;
+  color: azure;
+}
+
+.header h2 {
+  padding-left: 20px;
+}
+
+span {
+  display: inline-flex;
+  padding-left: 20px;
 }
