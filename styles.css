@@ -58,7 +58,7 @@ li a:hover {
 .Block {
   padding: 10px;
   float: left;
-  width: 44%;
+  width: auto;
   margin: 10px;
   font-size: larger;
   border: 3px solid black;
@@ -76,7 +76,7 @@ h1 {
   background-color: gold;
   padding: 10px;
   float: right;
-  width: 44%;
+  width: auto;
   margin: 10px;
   font-size: larger;
   border: 3px solid black;
