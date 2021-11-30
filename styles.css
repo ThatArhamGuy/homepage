@@ -64,7 +64,7 @@ li p {
 
 li a {
   float: right;
-  display: inline-flex;
+  display: inline-flexbox;
   color: black;
   text-align: center;
   padding: 14px 16px;
