@@ -204,4 +204,5 @@ a {
   border: 1px solid rgb(51, 51, 51);
   color: #272838;
   box-shadow: rgb(51, 51, 51) 4px 4px 0px 0px;
+  padding: 1rem;
 }
