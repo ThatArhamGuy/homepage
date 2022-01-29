@@ -1,0 +1,61 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+/* Typography */
+::selection {
+  color: #fff;
+}
+
+html {
+  /* 62.5% of 16px = 10px */
+  font-size: 62.5%;
+}
+
+body {
+  font-family: Inter, Arial, Helvetica, sans-serif;
+  background-color: 272838;
+}
+
+p {
+  margin-top: 0;
+}
+
+.container {
+  margin: 0 4rem;
+}
+
+/* Grids */
+.grid {
+  display: grid;
+}
+
+.content-grid {
+  gap: 5rem;
+}
+
+@media screen and (min-width: 768px) {
+  .grid--1x2 {
+    grid-template-columns: repeat(2, minmax(300px, auto));
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .grid--1x3 {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+/* Block */
+.block {
+  width: 100%;
+  background: #cafe48;
+  font-size: larger;
+  border: 3px solid black;
+  border-radius: 7px;
+  border: 1px solid rgb(51, 51, 51);
+  color: #272838;
+  box-shadow: rgb(51, 51, 51) 4px 4px 0px 0px;
+}
