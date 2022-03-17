@@ -7,7 +7,7 @@
 /* Typing Text */
 body {
   background-image: url(https://unsplash.com/photos/xcQWMPm9fG8/download?ixid=MnwxMjA3fDB8MXxhbGx8fHx8fHx8fHwxNjQ3NTE0NjE3&force=true&w=1920);
-  font-family: Inter, Arial, Helvetica, sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .grid {
@@ -44,15 +44,16 @@ body {
 }
 
 .start-box {
-  padding-top: 15%;
+  padding-top: 7.5%;
 }
 
 /* Typography */
 .name {
-  font-size: 55px;
+  font-size: 80px;
   color: var(--color-text-primary);
   margin: 0, 20px;
   margin-bottom: 0;
+  font-weight: 700;
 }
 
 .text {
@@ -60,6 +61,8 @@ body {
   font-size: larger;
   color: var(--color-text-secondary);
   margin: 0, 20px;
+  font-size: 25px;
+  font-weight: 200;
 }
 
 a {
@@ -77,7 +80,7 @@ a:hover {
   }
 
   .name {
-    font-size: 45px;
+    font-size: 50px;
     color: var(--color-text-primary);
     margin: 50px, 20px;
     overflow: hidden;
@@ -87,6 +90,8 @@ a:hover {
     text-align: center;
     color: var(--color-text-secondary);
     margin: 0, 30px;
+    font-size: 20px;
+    font-weight: 400;
   }
 
   a {
@@ -100,13 +105,13 @@ a:hover {
 }
 /* Socials */
 .social {
-  font-size: xx-large;
-  font-weight: 500;
-  margin-bottom: none;
+  font-size: x-large;
+  font-weight: 100;
+  margin-bottom: 0;
 }
 
 .Socials {
-  margin-top: none;
+  margin-top: 10px;
   font-size: 50px;
   color: var(--color-text-secondary);
   padding: 12px;
