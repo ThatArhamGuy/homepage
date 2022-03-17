@@ -1,0 +1,80 @@
+:root {
+  --color-text-primary: white;
+  --color-text-secondary: azure;
+  --color-text-bg: rgba(73, 245, 208, 0.3);
+}
+
+/* Typing Text */
+body {
+  background-image: url(https://unsplash.com/photos/xcQWMPm9fG8/download?ixid=MnwxMjA3fDB8MXxhbGx8fHx8fHx8fHwxNjQ3NTE0NjE3&force=true&w=1920);
+  font-family: Inter, Arial, Helvetica, sans-serif;
+}
+
+.grid {
+  margin-top: 12%;
+  display: grid;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.typetext {
+  width: 13ch;
+  animation: typing 2s steps(13), blink 0.5s step-end infinite alternate;
+  white-space: nowrap;
+  overflow: hidden;
+  border-right: 3px solid;
+  font-family: monospace;
+}
+
+@keyframes typing {
+  from {
+    width: 0;
+  }
+}
+
+@keyframes blink {
+  50% {
+    border-color: transparent;
+  }
+}
+
+/* Typography */
+.name {
+  font-size: 55px;
+  color: var(--color-text-primary);
+}
+
+.text {
+  text-align: center;
+  color: var(--color-text-secondary);
+}
+
+a {
+  text-decoration: none;
+  color: wheat;
+}
+
+a:hover {
+  color: lightyellow;
+}
+
+/* Socials */
+.social {
+  font-size: xx-large;
+  font-weight: 500;
+  margin-bottom: none;
+}
+
+.Socials {
+  margin-top: none;
+  font-size: 50px;
+  color: var(--color-text-secondary);
+  padding: 12px;
+  border-bottom: 1px whitesmoke;
+}
